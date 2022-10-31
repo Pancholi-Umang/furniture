@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgcolormate{
+    background-color: aliceblue;
+    min-height: 91vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}

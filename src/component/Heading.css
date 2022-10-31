@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* transitoion property very usefull for the ease delay etc */
+.mainHeader{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    cursor: pointer;
+    height: 100%;
+    width: 180px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding-left: 10px;
+}
+
+.logo:hover .lastlatter{
+    color: springgreen;
+}
+
+.firstlatter{
+    color: springgreen;
+}
+
+.lastlatter{
+    margin-left: 3px;
+    color: white;
+}
+
+.lastlatter:hover{
+    color: springgreen;
+}
+
+.listitm{
+    float: right;
+    height: 100%;
+    width: 500px;
+    /* border: 0.5px solid white; */
+}
+
+.mylistname li{
+    list-style-type: none;
+}
+
+.mylistname li .opos{
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    /* margin: 0px 15px 0px 15px; */
+}
+
+.mylistname{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a.opos:hover{
+    color: springgreen;
+    transition:all 1s ease;
+}
+a.opos{
+    transition: all 1s ease;
+    font-weight: 500;
+}
+
+
+/* .mycenterHeading:hover .mycente{
+    cursor: pointer;
+    transition:all 1s ease;
+    color: springgreen;
+} */
+
+/* jyare mouse ne hover mathi levama aave tyare easily ending thay atle */
+
+/* .mycente{
+    transition:all 1s ease;
+} */
+
+/* .mycenterHeading,.logo,.listitm{
+    outline: 1px solid white;
+} */
+
+.mycenterHeading{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 500px;
+}
+.mycente{
+    height: 30px;
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 15px;
+    float: left;
+    border: none;
+    outline: none;
+}
+
+
+

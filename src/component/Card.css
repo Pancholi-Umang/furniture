@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.iuiuiuiuiu{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.majortap{
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    background-image: linear-gradient(to bottom, rgb(107, 238, 173) ,rgb(177, 223, 200));
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myinp{
+    height: 30px;
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left:10px;
+}
+
+.mainContainer{
+    /* border: 1px solid red;     */
+    margin: 10px 0px 10px 0px;
+    min-width: 25vh;
+    max-width: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardContainer{
+    height: 280px;
+    width: 280px;
+    padding: 10px;
+    outline: 1px solid black;
+    background-image: linear-gradient(to bottom, rgb(107, 238, 173) ,rgb(177, 223, 200));
+    overflow: scroll;
+}
+
+/* hiden the scroll bar */
+.cardContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.iuiuiuiuiu::-webkit-scrollbar{
+    display: none;
+}
+
+
+.cardImage{
+    width: 260px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.controlimg{
+    height: 100%;
+    width: 100%;
+}
+.cardContainer:hover .controlimg{
+    transform: scale(1.1);
+    transition: all 0.7s ease;
+}
+
+.butn{
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+}
+
+.bynow{
+    height:100%;
+    width: 100%;
+    background-color: rgb(158, 242, 214);
+    border: 0.5px solid rgb(136, 135, 135);
+    border-radius: 5px;
+}

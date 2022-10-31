@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+textarea{
+    resize: none;
+}
+
+.myleftheadingbro{
+    width: 1300px;
+    margin: auto;
+    text-align: left;
+}
+
+.myleftheadingcenterbro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.defaultTextBoxbro {
+    padding: 0;
+    height: 30px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 10px;
+}
+.advancedSearchTextboxbro {
+    width: 526px;
+    margin-right: -4px;
+}
+
+.bnmbro:hover{
+    color: springgreen;
+}
+
+/* this is button css copy to other website */
+
+.glow-on-hoverbro {
+    width: 100px;
+    height: 25px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hoverbro:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hoverbro:active {
+    color: #000
+}
+
+.glow-on-hoverbro:active:after {
+    background: transparent;
+}
+
+.glow-on-hoverbro:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hoverbro:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

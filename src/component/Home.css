@@ -1,0 +1,57 @@
+/*    we first need to import    */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mybgimag {
+    position: relative;
+    background-image: url(../assets/mybgurlss.jpg);
+    min-height: 91.5vh;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.myleftbox {
+    margin-left: 10vh;
+    margin-top: 40vh;
+    height: 180px;
+    width: 359px;
+    text-align: left;
+}
+
+.myleftbox h1 {
+    font-size: 35px;
+    color: black;
+}
+.myleftbox p{
+    font-weight: 700;
+}
+
+.myunderBtn {
+    padding-top: 2px;
+    list-style: none;
+    margin-top: 3px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border-radius: 9px;
+    background-color: green;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.myunderBtn:hover {
+    background-color: black;
+    transition: all 1s ease;
+}
+
+.jsxb {
+    color: white;
+    text-decoration: none;
+}
